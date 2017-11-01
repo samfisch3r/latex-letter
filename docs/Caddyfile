@@ -1,7 +1,0 @@
-letters.koenvangilst.nl {
-  proxy / localhost:8080 {
-    policy round_robin
-  }
-  gzip
-  log /home/ubuntu/logs/letters.log
-}
